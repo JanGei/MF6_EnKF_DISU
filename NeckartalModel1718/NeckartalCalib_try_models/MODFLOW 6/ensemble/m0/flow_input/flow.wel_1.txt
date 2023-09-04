@@ -1,610 +1,610 @@
-11302 67.75 12 "Versickerung Robu"
-12689 -720.64 2 "Brunnen HFB Unteres Neckartal  T?bingen"
-21058 58 15 "Keuper Nord"
-21530 48 15 "Keuper Nord"
-11393 67.75 12 "Versickerung Robu"
-14464 -1729.45 5 "Brunnen Kiebingen I"
-21059 58 15 "Keuper Nord"
-21531 48 15 "Keuper Nord"
-11491 67.75 12 "Versickerung Robu"
-21074 58 15 "Keuper Nord"
-21532 48 15 "Keuper Nord"
-24876 -878.12 6 "Brunnen Kiebingen II"
-11594 41.15 12 "Versickerung Robu"
-21098 58 15 "Keuper Nord"
-21533 48 15 "Keuper Nord"
-26134 -779.11 7 "Brunnen Kiebingen III"
-11727 36.3 12 "Versickerung Robu"
-21099 58 15 "Keuper Nord"
-21534 48 15 "Keuper Nord"
-24269 -388.02 8 "Brunnen Kiebingen iV"
-11878 33.9 12 "Versickerung Robu"
-21124 58 15 "Keuper Nord"
-21535 48 15 "Keuper Nord"
-23222 -397.79 9 "Brunnen Kiebingen V"
-12051 31.45 12 "Versickerung Robu"
-21127 58 15 "Keuper Nord"
-21536 48 15 "Keuper Nord"
-22980 -418.99 10 "Brunnen Kiebingen VI"
-12243 26.6 12 "Versickerung Robu"
-16665 -1236.16 4 "Brunnen Pumpwerk Gehrnfeld"
-21128 58 15 "Keuper Nord"
-21606 48 15 "Keuper Nord"
-17358 -1000 3 "Brunnen Steinlachgruppe"
-21156 58 15 "Keuper Nord"
-21607 48 15 "Keuper Nord"
-13451 -483.61 1 "Brunnen Vertikalfilterbrunnen T?bingen Unteres Neckartal"
-21161 58 15 "Keuper Nord"
-21687 48 15 "Keuper Nord"
-20663 4.385 0 "Derendingen West"
-21162 58 15 "Keuper Nord"
-21770 48 15 "Keuper Nord"
-20664 4.385 0 "Derendingen West"
-21163 58 15 "Keuper Nord"
-21854 48 15 "Keuper Nord"
-20665 4.385 0 "Derendingen West"
-21164 58 15 "Keuper Nord"
-21941 48 15 "Keuper Nord"
-20785 4.385 0 "Derendingen West"
-21165 58 15 "Keuper Nord"
-22030 48 15 "Keuper Nord"
-20859 4.385 0 "Derendingen West"
-21195 58 15 "Keuper Nord"
-22129 48 15 "Keuper Nord"
-20860 4.385 0 "Derendingen West"
-21236 58 15 "Keuper Nord"
-22130 48 15 "Keuper Nord"
-20905 4.385 0 "Derendingen West"
-21237 58 15 "Keuper Nord"
-22238 48 15 "Keuper Nord"
-20930 4.385 0 "Derendingen West"
-21238 58 15 "Keuper Nord"
-22370 48 15 "Keuper Nord"
-20950 4.385 0 "Derendingen West"
-21239 58 15 "Keuper Nord"
-22371 48 15 "Keuper Nord"
-20970 4.385 0 "Derendingen West"
-21240 58 15 "Keuper Nord"
-22519 48 15 "Keuper Nord"
-20990 4.385 0 "Derendingen West"
-21241 58 15 "Keuper Nord"
-22520 48 15 "Keuper Nord"
-21008 4.385 0 "Derendingen West"
-21285 58 15 "Keuper Nord"
-22521 48 15 "Keuper Nord"
-21024 4.385 0 "Derendingen West"
-21286 58 15 "Keuper Nord"
-22691 48 15 "Keuper Nord"
-21039 4.385 0 "Derendingen West"
-21287 58 15 "Keuper Nord"
-22692 48 15 "Keuper Nord"
-21050 4.385 0 "Derendingen West"
-21340 58 15 "Keuper Nord"
-22889 48 15 "Keuper Nord"
-10540 7.21 0 Duerrbachgraben
-21400 58 15 "Keuper Nord"
-22890 48 15 "Keuper Nord"
-10581 7.21 0 Duerrbachgraben
-21463 58 15 "Keuper Nord"
-23142 48 15 "Keuper Nord"
-10582 7.21 0 Duerrbachgraben
-21464 58 15 "Keuper Nord"
-23143 48 15 "Keuper Nord"
-10583 7.21 0 Duerrbachgraben
-21537 58 15 "Keuper Nord"
-23426 48 15 "Keuper Nord"
-10584 7.21 0 Duerrbachgraben
-21538 58 15 "Keuper Nord"
-23427 48 15 "Keuper Nord"
-10585 7.21 0 Duerrbachgraben
-10586 7.21 0 Duerrbachgraben
-10630 7.21 0 Duerrbachgraben
-10631 7.21 0 Duerrbachgraben
-10632 7.21 0 Duerrbachgraben
-10685 7.21 0 Duerrbachgraben
-10745 7.21 0 Duerrbachgraben
-10754 5.81 0 Duerrbachgraben
-10808 7.21 0 Duerrbachgraben
-10809 7.21 0 Duerrbachgraben
-10819 5.81 0 Duerrbachgraben
-10896 5.81 0 Duerrbachgraben
-10975 5.81 0 Duerrbachgraben
-11058 5.81 0 Duerrbachgraben
-11142 5.81 0 Duerrbachgraben
-11228 5.81 0 Duerrbachgraben
-11317 5.81 0 Duerrbachgraben
-11408 5.81 0 Duerrbachgraben
-11506 5.81 0 Duerrbachgraben
-11609 5.81 0 Duerrbachgraben
-11742 5.81 0 Duerrbachgraben
-21060 53 15 "Keuper Nord"
-21061 53 15 "Keuper Nord"
-21062 53 15 "Keuper Nord"
-21063 53 15 "Keuper Nord"
-21064 53 15 "Keuper Nord"
-21065 53 15 "Keuper Nord"
-21066 53 15 "Keuper Nord"
-21067 53 15 "Keuper Nord"
-21068 53 15 "Keuper Nord"
-21069 53 15 "Keuper Nord"
-21070 53 15 "Keuper Nord"
-21071 53 15 "Keuper Nord"
-21075 53 15 "Keuper Nord"
-21076 53 15 "Keuper Nord"
-21077 53 15 "Keuper Nord"
-21078 53 15 "Keuper Nord"
-21079 53 15 "Keuper Nord"
-21080 53 15 "Keuper Nord"
-21093 53 15 "Keuper Nord"
-21094 53 15 "Keuper Nord"
-21095 53 15 "Keuper Nord"
-21122 53 15 "Keuper Nord"
-21123 53 15 "Keuper Nord"
-21154 53 15 "Keuper Nord"
-21155 53 15 "Keuper Nord"
-21194 53 15 "Keuper Nord"
-21235 53 15 "Keuper Nord"
-21283 53 15 "Keuper Nord"
-21284 53 15 "Keuper Nord"
-21337 53 15 "Keuper Nord"
-21338 53 15 "Keuper Nord"
-21339 53 15 "Keuper Nord"
-21396 53 15 "Keuper Nord"
-21397 53 15 "Keuper Nord"
-21398 53 15 "Keuper Nord"
-21399 53 15 "Keuper Nord"
-21461 53 15 "Keuper Nord"
-31180 14.86 0 KeuperSued
-31181 14.86 0 KeuperSued
-31182 14.86 0 KeuperSued
-31183 14.86 0 KeuperSued
-31184 14.86 0 KeuperSued
-31201 14.86 0 KeuperSued
-31202 14.86 0 KeuperSued
-31203 14.86 0 KeuperSued
-31332 14.86 0 KeuperSued
-31333 14.86 0 KeuperSued
-31334 14.86 0 KeuperSued
-31335 14.86 0 KeuperSued
-31349 14.86 0 KeuperSued
-31350 14.86 0 KeuperSued
-31351 14.86 0 KeuperSued
-31352 14.86 0 KeuperSued
-31353 14.86 0 KeuperSued
-31354 14.86 0 KeuperSued
-31355 14.86 0 KeuperSued
-31356 14.86 0 KeuperSued
-31372 14.86 0 KeuperSued
-31373 14.86 0 KeuperSued
-31374 14.86 0 KeuperSued
-31375 14.86 0 KeuperSued
-31376 14.86 0 KeuperSued
-31377 14.86 0 KeuperSued
-31378 14.86 0 KeuperSued
-31379 14.86 0 KeuperSued
-31380 14.86 0 KeuperSued
-31466 14.86 0 KeuperSued
-31467 14.86 0 KeuperSued
-31468 14.86 0 KeuperSued
-31469 14.86 0 KeuperSued
-31470 14.86 0 KeuperSued
-31471 14.86 0 KeuperSued
-31472 14.86 0 KeuperSued
-31473 14.86 0 KeuperSued
-31474 14.86 0 KeuperSued
-31488 14.86 0 KeuperSued
-31489 14.86 0 KeuperSued
-31490 14.86 0 KeuperSued
-31491 14.86 0 KeuperSued
-31492 14.86 0 KeuperSued
-31493 14.86 0 KeuperSued
-31494 14.86 0 KeuperSued
-31495 14.86 0 KeuperSued
-31496 14.86 0 KeuperSued
-31497 14.86 0 KeuperSued
-31498 14.86 0 KeuperSued
-31499 14.86 0 KeuperSued
-31500 14.86 0 KeuperSued
-31501 14.86 0 KeuperSued
-31502 14.86 0 KeuperSued
-31503 14.86 0 KeuperSued
-31504 14.86 0 KeuperSued
-31505 14.86 0 KeuperSued
-31506 14.86 0 KeuperSued
-31507 14.86 0 KeuperSued
-31508 14.86 0 KeuperSued
-31509 14.86 0 KeuperSued
-31530 14.86 0 KeuperSued
-31531 14.86 0 KeuperSued
-31532 14.86 0 KeuperSued
-31541 14.86 0 KeuperSued
-31542 14.86 0 KeuperSued
-31543 14.86 0 KeuperSued
-31544 14.86 0 KeuperSued
-31545 14.86 0 KeuperSued
-31546 14.86 0 KeuperSued
-31547 14.86 0 KeuperSued
-31548 14.86 0 KeuperSued
-31549 14.86 0 KeuperSued
-31581 14.86 0 KeuperSued
-31582 14.86 0 KeuperSued
-31583 14.86 0 KeuperSued
-31595 14.86 0 KeuperSued
-31596 14.86 0 KeuperSued
-31597 14.86 0 KeuperSued
-31598 14.86 0 KeuperSued
-31599 14.86 0 KeuperSued
-31600 14.86 0 KeuperSued
-31601 14.86 0 KeuperSued
-31602 14.86 0 KeuperSued
-31603 14.86 0 KeuperSued
-31604 14.86 0 KeuperSued
-31605 14.86 0 KeuperSued
-31606 14.86 0 KeuperSued
-31607 14.86 0 KeuperSued
-31615 14.86 0 KeuperSued
-31616 14.86 0 KeuperSued
-31617 14.86 0 KeuperSued
-31618 14.86 0 KeuperSued
-31622 14.86 0 KeuperSued
-31623 14.86 0 KeuperSued
-31648 14.86 0 KeuperSued
-31649 14.86 0 KeuperSued
-31659 14.86 0 KeuperSued
-31660 14.86 0 KeuperSued
-31661 14.86 0 KeuperSued
-31662 14.86 0 KeuperSued
-31663 14.86 0 KeuperSued
-31664 14.86 0 KeuperSued
-31666 14.86 0 KeuperSued
-31667 14.86 0 KeuperSued
-31668 14.86 0 KeuperSued
-31669 14.86 0 KeuperSued
-31686 14.86 0 KeuperSued
-31695 14.86 0 KeuperSued
-31696 14.86 0 KeuperSued
-31709 14.86 0 KeuperSued
-31717 14.86 0 KeuperSued
-31730 14.86 0 KeuperSued
-31738 14.86 0 KeuperSued
-31752 14.86 0 KeuperSued
-31759 14.86 0 KeuperSued
-31771 14.86 0 KeuperSued
-31777 14.86 0 KeuperSued
-31789 14.86 0 KeuperSued
-31795 14.86 0 KeuperSued
-31806 14.86 0 KeuperSued
-31807 14.86 0 KeuperSued
-31808 14.86 0 KeuperSued
-31811 14.86 0 KeuperSued
-31822 14.86 0 KeuperSued
-31823 14.86 0 KeuperSued
-10405 24.3 0 Lacherwegsgraben
-10406 24.3 0 Lacherwegsgraben
-10407 24.3 0 Lacherwegsgraben
-10419 24.3 0 Lacherwegsgraben
-10420 24.3 0 Lacherwegsgraben
-10421 24.3 0 Lacherwegsgraben
-10422 24.3 0 Lacherwegsgraben
-10423 24.3 0 Lacherwegsgraben
-10424 24.3 0 Lacherwegsgraben
-10425 24.3 0 Lacherwegsgraben
-10444 24.3 0 Lacherwegsgraben
-10450 24.3 0 Lacherwegsgraben
-10480 24.3 0 Lacherwegsgraben
-10518 24.3 0 Lacherwegsgraben
-10558 24.3 0 Lacherwegsgraben
-10606 24.3 0 Lacherwegsgraben
-10658 24.3 0 Lacherwegsgraben
-10714 24.3 0 Lacherwegsgraben
-10775 24.3 0 Lacherwegsgraben
-10841 24.3 0 Lacherwegsgraben
-10917 24.3 0 Lacherwegsgraben
-10995 24.3 0 Lacherwegsgraben
-21345 43.2 0 "mo Auftrieb Riedbrunnen"
-27987 691 11 "Muka Arteser"
-27991 552.8 11 "Muka Arteser"
-27996 691 11 "Muka Arteser"
-28324 552.8 11 "Muka Arteser"
-28325 691 11 "Muka Arteser"
-20415 12.19 14 "Rammert Kieb_Buehl"
-20416 12.19 14 "Rammert Kieb_Buehl"
-20417 12.19 14 "Rammert Kieb_Buehl"
-20418 12.19 14 "Rammert Kieb_Buehl"
-20419 12.19 14 "Rammert Kieb_Buehl"
-20567 12.19 14 "Rammert Kieb_Buehl"
-20568 12.19 14 "Rammert Kieb_Buehl"
-20569 12.19 14 "Rammert Kieb_Buehl"
-20570 12.19 14 "Rammert Kieb_Buehl"
-20705 12.19 14 "Rammert Kieb_Buehl"
-20706 12.19 14 "Rammert Kieb_Buehl"
-20707 12.19 14 "Rammert Kieb_Buehl"
-20708 12.19 14 "Rammert Kieb_Buehl"
-20709 12.19 14 "Rammert Kieb_Buehl"
-20816 12.19 14 "Rammert Kieb_Buehl"
-20817 12.19 14 "Rammert Kieb_Buehl"
-20818 12.19 14 "Rammert Kieb_Buehl"
-20882 12.19 14 "Rammert Kieb_Buehl"
-20883 12.19 14 "Rammert Kieb_Buehl"
-20919 12.19 14 "Rammert Kieb_Buehl"
-17766 5.515 0 "Tue Gartenstr"
-17767 5.515 0 "Tue Gartenstr"
-17768 5.515 0 "Tue Gartenstr"
-17769 5.515 0 "Tue Gartenstr"
-18054 5.515 0 "Tue Gartenstr"
-18055 5.515 0 "Tue Gartenstr"
-18056 5.515 0 "Tue Gartenstr"
-18327 5.515 0 "Tue Gartenstr"
-18328 5.515 0 "Tue Gartenstr"
-18591 5.515 0 "Tue Gartenstr"
-18592 5.515 0 "Tue Gartenstr"
-18593 5.515 0 "Tue Gartenstr"
-18851 5.515 0 "Tue Gartenstr"
-18852 5.515 0 "Tue Gartenstr"
-19093 5.515 0 "Tue Gartenstr"
-19328 5.515 0 "Tue Gartenstr"
-19329 5.515 0 "Tue Gartenstr"
-19330 5.515 0 "Tue Gartenstr"
-19558 5.515 0 "Tue Gartenstr"
-19559 5.515 0 "Tue Gartenstr"
-14706 176.335 13 "Versickerung Blaulach"
-14710 176.335 13 "Versickerung Blaulach"
-14714 176.335 13 "Versickerung Blaulach"
-15008 176.335 13 "Versickerung Blaulach"
-15315 176.335 13 "Versickerung Blaulach"
-15320 176.335 13 "Versickerung Blaulach"
-15321 176.335 13 "Versickerung Blaulach"
-15631 176.335 13 "Versickerung Blaulach"
-15635 176.335 13 "Versickerung Blaulach"
-15938 176.335 13 "Versickerung Blaulach"
-20436 6.05 20 "Zufluss Buehl Ost"
-20437 6.05 20 "Zufluss Buehl Ost"
-20438 6.05 20 "Zufluss Buehl Ost"
-20585 6.05 20 "Zufluss Buehl Ost"
-20586 6.05 20 "Zufluss Buehl Ost"
-20587 6.05 20 "Zufluss Buehl Ost"
-20588 6.05 20 "Zufluss Buehl Ost"
-20723 6.05 20 "Zufluss Buehl Ost"
-20830 6.05 20 "Zufluss Buehl Ost"
-20893 6.05 20 "Zufluss Buehl Ost"
-20928 6.05 20 "Zufluss Buehl Ost"
-10408 4.277 17 "Zufluss in_u_westl Hirschau"
-10409 4.277 17 "Zufluss in_u_westl Hirschau"
-10410 4.277 17 "Zufluss in_u_westl Hirschau"
-10411 4.277 17 "Zufluss in_u_westl Hirschau"
-10412 4.277 17 "Zufluss in_u_westl Hirschau"
-10413 4.277 17 "Zufluss in_u_westl Hirschau"
-10414 4.277 17 "Zufluss in_u_westl Hirschau"
-10415 4.277 17 "Zufluss in_u_westl Hirschau"
-10416 4.277 17 "Zufluss in_u_westl Hirschau"
-10438 4.277 17 "Zufluss in_u_westl Hirschau"
-10439 4.277 17 "Zufluss in_u_westl Hirschau"
-10440 4.277 17 "Zufluss in_u_westl Hirschau"
-10467 4.277 17 "Zufluss in_u_westl Hirschau"
-10468 4.277 17 "Zufluss in_u_westl Hirschau"
-10499 4.277 17 "Zufluss in_u_westl Hirschau"
-10500 4.277 17 "Zufluss in_u_westl Hirschau"
-10539 4.277 17 "Zufluss in_u_westl Hirschau"
-10580 4.277 17 "Zufluss in_u_westl Hirschau"
-10628 4.277 17 "Zufluss in_u_westl Hirschau"
-10629 4.277 17 "Zufluss in_u_westl Hirschau"
-10682 4.277 17 "Zufluss in_u_westl Hirschau"
-10683 4.277 17 "Zufluss in_u_westl Hirschau"
-10684 4.277 17 "Zufluss in_u_westl Hirschau"
-10741 4.277 17 "Zufluss in_u_westl Hirschau"
-10742 4.277 17 "Zufluss in_u_westl Hirschau"
-10743 4.277 17 "Zufluss in_u_westl Hirschau"
-10744 4.277 17 "Zufluss in_u_westl Hirschau"
-10806 4.277 17 "Zufluss in_u_westl Hirschau"
-10807 4.277 17 "Zufluss in_u_westl Hirschau"
-10873 4.277 17 "Zufluss in_u_westl Hirschau"
-10874 4.277 17 "Zufluss in_u_westl Hirschau"
-11029 4.277 17 "Zufluss in_u_westl Hirschau"
-11030 4.277 17 "Zufluss in_u_westl Hirschau"
-11031 4.277 17 "Zufluss in_u_westl Hirschau"
-11114 4.277 17 "Zufluss in_u_westl Hirschau"
-11198 4.277 17 "Zufluss in_u_westl Hirschau"
-11284 4.277 17 "Zufluss in_u_westl Hirschau"
-11285 4.277 17 "Zufluss in_u_westl Hirschau"
-11374 4.277 17 "Zufluss in_u_westl Hirschau"
-11465 4.277 17 "Zufluss in_u_westl Hirschau"
-11563 4.277 17 "Zufluss in_u_westl Hirschau"
-11665 4.277 17 "Zufluss in_u_westl Hirschau"
-11798 4.277 17 "Zufluss in_u_westl Hirschau"
-11799 4.277 17 "Zufluss in_u_westl Hirschau"
-11950 4.277 17 "Zufluss in_u_westl Hirschau"
-11951 4.277 17 "Zufluss in_u_westl Hirschau"
-20699 7.465 21 "Zufluss Kieb Ost"
-20700 7.465 21 "Zufluss Kieb Ost"
-20701 7.465 21 "Zufluss Kieb Ost"
-20702 7.465 21 "Zufluss Kieb Ost"
-20703 7.465 21 "Zufluss Kieb Ost"
-20704 7.465 21 "Zufluss Kieb Ost"
-20813 7.465 21 "Zufluss Kieb Ost"
-20814 7.465 21 "Zufluss Kieb Ost"
-20815 7.465 21 "Zufluss Kieb Ost"
-20881 7.465 21 "Zufluss Kieb Ost"
-20589 16.47 19 "Zufluss Kilchberg"
-20590 16.47 19 "Zufluss Kilchberg"
-20591 16.47 19 "Zufluss Kilchberg"
-20607 16.47 19 "Zufluss Kilchberg"
-20608 16.47 19 "Zufluss Kilchberg"
-20609 16.47 19 "Zufluss Kilchberg"
-20610 16.47 19 "Zufluss Kilchberg"
-20611 16.47 19 "Zufluss Kilchberg"
-20612 16.47 19 "Zufluss Kilchberg"
-20613 16.47 19 "Zufluss Kilchberg"
-20614 16.47 19 "Zufluss Kilchberg"
-20615 16.47 19 "Zufluss Kilchberg"
-20724 16.47 19 "Zufluss Kilchberg"
-20725 16.47 19 "Zufluss Kilchberg"
-20726 16.47 19 "Zufluss Kilchberg"
-20727 16.47 19 "Zufluss Kilchberg"
-20728 16.47 19 "Zufluss Kilchberg"
-20729 16.47 19 "Zufluss Kilchberg"
-20730 16.47 19 "Zufluss Kilchberg"
-20731 16.47 19 "Zufluss Kilchberg"
-20732 16.47 19 "Zufluss Kilchberg"
-20733 16.47 19 "Zufluss Kilchberg"
-20734 16.47 19 "Zufluss Kilchberg"
-20735 16.47 19 "Zufluss Kilchberg"
-20736 16.47 19 "Zufluss Kilchberg"
-20737 16.47 19 "Zufluss Kilchberg"
-20738 16.47 19 "Zufluss Kilchberg"
-20739 16.47 19 "Zufluss Kilchberg"
-20740 16.47 19 "Zufluss Kilchberg"
-20741 16.47 19 "Zufluss Kilchberg"
-20742 16.47 19 "Zufluss Kilchberg"
-20743 16.47 19 "Zufluss Kilchberg"
-20744 16.47 19 "Zufluss Kilchberg"
-20831 16.47 19 "Zufluss Kilchberg"
-20832 16.47 19 "Zufluss Kilchberg"
-20833 16.47 19 "Zufluss Kilchberg"
-20834 16.47 19 "Zufluss Kilchberg"
-20835 16.47 19 "Zufluss Kilchberg"
-20836 16.47 19 "Zufluss Kilchberg"
-20837 16.47 19 "Zufluss Kilchberg"
-12593 2.3 16 "Zufluss oestl Hirschau"
-12594 2.3 16 "Zufluss oestl Hirschau"
-12851 2.3 16 "Zufluss oestl Hirschau"
-12852 2.3 16 "Zufluss oestl Hirschau"
-12853 2.3 16 "Zufluss oestl Hirschau"
-13091 2.3 16 "Zufluss oestl Hirschau"
-13092 2.635 16 "Zufluss oestl Hirschau"
-13093 2.3 16 "Zufluss oestl Hirschau"
-13351 2.3 16 "Zufluss oestl Hirschau"
-13352 2.3 16 "Zufluss oestl Hirschau"
-13353 2.3 16 "Zufluss oestl Hirschau"
-13354 2.3 16 "Zufluss oestl Hirschau"
-13634 2.3 16 "Zufluss oestl Hirschau"
-13635 2.3 16 "Zufluss oestl Hirschau"
-13636 2.3 16 "Zufluss oestl Hirschau"
-13637 2.3 16 "Zufluss oestl Hirschau"
-13638 2.3 16 "Zufluss oestl Hirschau"
-13639 2.3 16 "Zufluss oestl Hirschau"
-13640 2.3 16 "Zufluss oestl Hirschau"
-13641 2.3 16 "Zufluss oestl Hirschau"
-13642 2.3 16 "Zufluss oestl Hirschau"
-13928 2.298 16 "Zufluss oestl Hirschau"
-13935 2.3 16 "Zufluss oestl Hirschau"
-13936 2.3 16 "Zufluss oestl Hirschau"
-13937 2.635 16 "Zufluss oestl Hirschau"
-19822 16.395 18 "Zufluss Robu_Kieb"
-19823 16.395 18 "Zufluss Robu_Kieb"
-19824 16.395 18 "Zufluss Robu_Kieb"
-19825 16.395 18 "Zufluss Robu_Kieb"
-19826 16.395 18 "Zufluss Robu_Kieb"
-19827 16.395 18 "Zufluss Robu_Kieb"
-19828 16.395 18 "Zufluss Robu_Kieb"
-19829 16.395 18 "Zufluss Robu_Kieb"
-19830 16.395 18 "Zufluss Robu_Kieb"
-20024 16.395 18 "Zufluss Robu_Kieb"
-20025 16.395 18 "Zufluss Robu_Kieb"
-20026 16.395 18 "Zufluss Robu_Kieb"
-20211 16.395 18 "Zufluss Robu_Kieb"
-20212 16.395 18 "Zufluss Robu_Kieb"
-20380 16.395 18 "Zufluss Robu_Kieb"
-20381 16.395 18 "Zufluss Robu_Kieb"
-20537 16.395 18 "Zufluss Robu_Kieb"
-20538 16.395 18 "Zufluss Robu_Kieb"
-20681 16.395 18 "Zufluss Robu_Kieb"
-20682 16.395 18 "Zufluss Robu_Kieb"
-20800 16.395 18 "Zufluss Robu_Kieb"
-20801 16.395 18 "Zufluss Robu_Kieb"
-20802 16.395 18 "Zufluss Robu_Kieb"
-20872 16.395 18 "Zufluss Robu_Kieb"
-20873 16.395 18 "Zufluss Robu_Kieb"
-20874 16.395 18 "Zufluss Robu_Kieb"
-20916 16.395 18 "Zufluss Robu_Kieb"
-20662 4.855 0 "Zufluss WeilheimDerendingen"
-20776 4.855 0 "Zufluss WeilheimDerendingen"
-20777 4.855 0 "Zufluss WeilheimDerendingen"
-20778 4.855 0 "Zufluss WeilheimDerendingen"
-20779 4.855 0 "Zufluss WeilheimDerendingen"
-20780 4.855 0 "Zufluss WeilheimDerendingen"
-20781 4.855 0 "Zufluss WeilheimDerendingen"
-20782 4.855 0 "Zufluss WeilheimDerendingen"
-20783 4.855 0 "Zufluss WeilheimDerendingen"
-20784 4.855 0 "Zufluss WeilheimDerendingen"
-20851 4.855 0 "Zufluss WeilheimDerendingen"
-20852 4.855 0 "Zufluss WeilheimDerendingen"
-20853 4.855 0 "Zufluss WeilheimDerendingen"
-20857 4.855 0 "Zufluss WeilheimDerendingen"
-20858 4.855 0 "Zufluss WeilheimDerendingen"
-20901 4.855 0 "Zufluss WeilheimDerendingen"
-20902 4.855 0 "Zufluss WeilheimDerendingen"
-20903 4.855 0 "Zufluss WeilheimDerendingen"
-21462 6.52 0.0 "Interbasinflow (Allgeier)"
-21528 6.52 0.0 "Interbasinflow (Allgeier)"
-21605 6.52 0.0 "Interbasinflow (Allgeier)"
-21684 6.52 0.0 "Interbasinflow (Allgeier)"
-21685 6.52 0.0 "Interbasinflow (Allgeier)"
-21686 6.52 0.0 "Interbasinflow (Allgeier)"
-21769 6.52 0.0 "Interbasinflow (Allgeier)"
-21853 6.52 0.0 "Interbasinflow (Allgeier)"
-21939 6.52 0.0 "Interbasinflow (Allgeier)"
-21940 6.52 0.0 "Interbasinflow (Allgeier)"
-22029 6.52 0.0 "Interbasinflow (Allgeier)"
-22120 6.52 0.0 "Interbasinflow (Allgeier)"
-22222 6.52 0.0 "Interbasinflow (Allgeier)"
-22332 6.52 0.0 "Interbasinflow (Allgeier)"
-22467 6.52 0.0 "Interbasinflow (Allgeier)"
-22468 6.52 0.0 "Interbasinflow (Allgeier)"
-22621 6.52 0.0 "Interbasinflow (Allgeier)"
-22805 6.52 0.0 "Interbasinflow (Allgeier)"
-23033 6.52 0.0 "Interbasinflow (Allgeier)"
-23298 6.52 0.0 "Interbasinflow (Allgeier)"
-23299 6.52 0.0 "Interbasinflow (Allgeier)"
-23559 6.52 0.0 "Interbasinflow (Allgeier)"
-23560 6.52 0.0 "Interbasinflow (Allgeier)"
-23561 6.52 0.0 "Interbasinflow (Allgeier)"
-23562 6.52 0.0 "Interbasinflow (Allgeier)"
-23563 6.52 0.0 "Interbasinflow (Allgeier)"
-23799 6.52 0.0 "Interbasinflow (Allgeier)"
-23800 6.52 0.0 "Interbasinflow (Allgeier)"
-23801 6.52 0.0 "Interbasinflow (Allgeier)"
-23802 6.52 0.0 "Interbasinflow (Allgeier)"
-23803 6.52 0.0 "Interbasinflow (Allgeier)"
-23804 6.52 0.0 "Interbasinflow (Allgeier)"
-24059 6.52 0.0 "Interbasinflow (Allgeier)"
-24060 6.52 0.0 "Interbasinflow (Allgeier)"
-24061 6.52 0.0 "Interbasinflow (Allgeier)"
-24062 6.52 0.0 "Interbasinflow (Allgeier)"
-24063 6.52 0.0 "Interbasinflow (Allgeier)"
-24064 6.52 0.0 "Interbasinflow (Allgeier)"
-24343 6.52 0.0 "Interbasinflow (Allgeier)"
-24344 6.52 0.0 "Interbasinflow (Allgeier)"
-24345 6.52 0.0 "Interbasinflow (Allgeier)"
-24346 6.52 0.0 "Interbasinflow (Allgeier)"
-24347 6.52 0.0 "Interbasinflow (Allgeier)"
-24348 6.52 0.0 "Interbasinflow (Allgeier)"
-24349 6.52 0.0 "Interbasinflow (Allgeier)"
-24350 6.52 0.0 "Interbasinflow (Allgeier)"
-24351 6.52 0.0 "Interbasinflow (Allgeier)"
-24352 6.52 0.0 "Interbasinflow (Allgeier)"
-24353 6.52 0.0 "Interbasinflow (Allgeier)"
-24354 6.52 0.0 "Interbasinflow (Allgeier)"
-24640 6.52 0.0 "Interbasinflow (Allgeier)"
-24647 6.52 0.0 "Interbasinflow (Allgeier)"
-24648 6.52 0.0 "Interbasinflow (Allgeier)"
-24649 6.52 0.0 "Interbasinflow (Allgeier)"
-24651 6.52 0.0 "Interbasinflow (Allgeier)"
-24652 6.52 0.0 "Interbasinflow (Allgeier)"
-24653 6.52 0.0 "Interbasinflow (Allgeier)"
-24972 6.52 0.0 "Interbasinflow (Allgeier)"
-24974 6.52 0.0 "Interbasinflow (Allgeier)"
-25290 6.52 0.0 "Interbasinflow (Allgeier)"
-25291 6.52 0.0 "Interbasinflow (Allgeier)"
-25292 6.52 0.0 "Interbasinflow (Allgeier)"
-25599 6.52 0.0 "Interbasinflow (Allgeier)"
-25600 6.52 0.0 "Interbasinflow (Allgeier)"
-25908 6.52 0.0 "Interbasinflow (Allgeier)"
-25909 6.52 0.0 "Interbasinflow (Allgeier)"
-25910 6.52 0.0 "Interbasinflow (Allgeier)"
-26230 6.52 0.0 "Interbasinflow (Allgeier)"
-26231 6.52 0.0 "Interbasinflow (Allgeier)"
-26232 6.52 0.0 "Interbasinflow (Allgeier)"
-26233 6.52 0.0 "Interbasinflow (Allgeier)"
-26234 6.52 0.0 "Interbasinflow (Allgeier)"
-26235 6.52 0.0 "Interbasinflow (Allgeier)"
-26236 6.52 0.0 "Interbasinflow (Allgeier)"
+  11302      67.75000000      12.00000000  'versickerung robu'
+  12689      -0.00000000       2.00000000  'brunnen hfb unteres neckartal  t?bingen'
+  21058      58.00000000      15.00000000  'keuper nord'
+  21530      48.00000000      15.00000000  'keuper nord'
+  11393      67.75000000      12.00000000  'versickerung robu'
+  14464   -2775.00000000       5.00000000  'brunnen kiebingen i'
+  21059      58.00000000      15.00000000  'keuper nord'
+  21531      48.00000000      15.00000000  'keuper nord'
+  11491      67.75000000      12.00000000  'versickerung robu'
+  21074      58.00000000      15.00000000  'keuper nord'
+  21532      48.00000000      15.00000000  'keuper nord'
+  24876   -1560.00000000       6.00000000  'brunnen kiebingen ii'
+  11594      41.15000000      12.00000000  'versickerung robu'
+  21098      58.00000000      15.00000000  'keuper nord'
+  21533      48.00000000      15.00000000  'keuper nord'
+  26134    -797.00000000       7.00000000  'brunnen kiebingen iii'
+  11727      36.30000000      12.00000000  'versickerung robu'
+  21099      58.00000000      15.00000000  'keuper nord'
+  21534      48.00000000      15.00000000  'keuper nord'
+  24269   -1039.00000000       8.00000000  'brunnen kiebingen iv'
+  11878      33.90000000      12.00000000  'versickerung robu'
+  21124      58.00000000      15.00000000  'keuper nord'
+  21535      48.00000000      15.00000000  'keuper nord'
+  23222    -410.00000000       9.00000000  'brunnen kiebingen v'
+  12051      31.45000000      12.00000000  'versickerung robu'
+  21127      58.00000000      15.00000000  'keuper nord'
+  21536      48.00000000      15.00000000  'keuper nord'
+  22980    -407.00000000      10.00000000  'brunnen kiebingen vi'
+  12243      26.60000000      12.00000000  'versickerung robu'
+  16665   -2005.50002900       4.00000000  'brunnen pumpwerk gehrnfeld'
+  21128      58.00000000      15.00000000  'keuper nord'
+  21606      48.00000000      15.00000000  'keuper nord'
+  17358   -1000.00000000       3.00000000  'brunnen steinlachgruppe'
+  21156      58.00000000      15.00000000  'keuper nord'
+  21607      48.00000000      15.00000000  'keuper nord'
+  13451       0.00000000       1.00000000  'brunnen vertikalfilterbrunnen t?bingen unteres neckartal'
+  21161      58.00000000      15.00000000  'keuper nord'
+  21687      48.00000000      15.00000000  'keuper nord'
+  20663       4.38500000       0.00000000  'derendingen west'
+  21162      58.00000000      15.00000000  'keuper nord'
+  21770      48.00000000      15.00000000  'keuper nord'
+  20664       4.38500000       0.00000000  'derendingen west'
+  21163      58.00000000      15.00000000  'keuper nord'
+  21854      48.00000000      15.00000000  'keuper nord'
+  20665       4.38500000       0.00000000  'derendingen west'
+  21164      58.00000000      15.00000000  'keuper nord'
+  21941      48.00000000      15.00000000  'keuper nord'
+  20785       4.38500000       0.00000000  'derendingen west'
+  21165      58.00000000      15.00000000  'keuper nord'
+  22030      48.00000000      15.00000000  'keuper nord'
+  20859       4.38500000       0.00000000  'derendingen west'
+  21195      58.00000000      15.00000000  'keuper nord'
+  22129      48.00000000      15.00000000  'keuper nord'
+  20860       4.38500000       0.00000000  'derendingen west'
+  21236      58.00000000      15.00000000  'keuper nord'
+  22130      48.00000000      15.00000000  'keuper nord'
+  20905       4.38500000       0.00000000  'derendingen west'
+  21237      58.00000000      15.00000000  'keuper nord'
+  22238      48.00000000      15.00000000  'keuper nord'
+  20930       4.38500000       0.00000000  'derendingen west'
+  21238      58.00000000      15.00000000  'keuper nord'
+  22370      48.00000000      15.00000000  'keuper nord'
+  20950       4.38500000       0.00000000  'derendingen west'
+  21239      58.00000000      15.00000000  'keuper nord'
+  22371      48.00000000      15.00000000  'keuper nord'
+  20970       4.38500000       0.00000000  'derendingen west'
+  21240      58.00000000      15.00000000  'keuper nord'
+  22519      48.00000000      15.00000000  'keuper nord'
+  20990       4.38500000       0.00000000  'derendingen west'
+  21241      58.00000000      15.00000000  'keuper nord'
+  22520      48.00000000      15.00000000  'keuper nord'
+  21008       4.38500000       0.00000000  'derendingen west'
+  21285      58.00000000      15.00000000  'keuper nord'
+  22521      48.00000000      15.00000000  'keuper nord'
+  21024       4.38500000       0.00000000  'derendingen west'
+  21286      58.00000000      15.00000000  'keuper nord'
+  22691      48.00000000      15.00000000  'keuper nord'
+  21039       4.38500000       0.00000000  'derendingen west'
+  21287      58.00000000      15.00000000  'keuper nord'
+  22692      48.00000000      15.00000000  'keuper nord'
+  21050       4.38500000       0.00000000  'derendingen west'
+  21340      58.00000000      15.00000000  'keuper nord'
+  22889      48.00000000      15.00000000  'keuper nord'
+  10540       7.21000000       0.00000000  duerrbachgraben
+  21400      58.00000000      15.00000000  'keuper nord'
+  22890      48.00000000      15.00000000  'keuper nord'
+  10581       7.21000000       0.00000000  duerrbachgraben
+  21463      58.00000000      15.00000000  'keuper nord'
+  23142      48.00000000      15.00000000  'keuper nord'
+  10582       7.21000000       0.00000000  duerrbachgraben
+  21464      58.00000000      15.00000000  'keuper nord'
+  23143      48.00000000      15.00000000  'keuper nord'
+  10583       7.21000000       0.00000000  duerrbachgraben
+  21537      58.00000000      15.00000000  'keuper nord'
+  23426      48.00000000      15.00000000  'keuper nord'
+  10584       7.21000000       0.00000000  duerrbachgraben
+  21538      58.00000000      15.00000000  'keuper nord'
+  23427      48.00000000      15.00000000  'keuper nord'
+  10585       7.21000000       0.00000000  duerrbachgraben
+  10586       7.21000000       0.00000000  duerrbachgraben
+  10630       7.21000000       0.00000000  duerrbachgraben
+  10631       7.21000000       0.00000000  duerrbachgraben
+  10632       7.21000000       0.00000000  duerrbachgraben
+  10685       7.21000000       0.00000000  duerrbachgraben
+  10745       7.21000000       0.00000000  duerrbachgraben
+  10754       5.81000000       0.00000000  duerrbachgraben
+  10808       7.21000000       0.00000000  duerrbachgraben
+  10809       7.21000000       0.00000000  duerrbachgraben
+  10819       5.81000000       0.00000000  duerrbachgraben
+  10896       5.81000000       0.00000000  duerrbachgraben
+  10975       5.81000000       0.00000000  duerrbachgraben
+  11058       5.81000000       0.00000000  duerrbachgraben
+  11142       5.81000000       0.00000000  duerrbachgraben
+  11228       5.81000000       0.00000000  duerrbachgraben
+  11317       5.81000000       0.00000000  duerrbachgraben
+  11408       5.81000000       0.00000000  duerrbachgraben
+  11506       5.81000000       0.00000000  duerrbachgraben
+  11609       5.81000000       0.00000000  duerrbachgraben
+  11742       5.81000000       0.00000000  duerrbachgraben
+  21060      53.00000000      15.00000000  'keuper nord'
+  21061      53.00000000      15.00000000  'keuper nord'
+  21062      53.00000000      15.00000000  'keuper nord'
+  21063      53.00000000      15.00000000  'keuper nord'
+  21064      53.00000000      15.00000000  'keuper nord'
+  21065      53.00000000      15.00000000  'keuper nord'
+  21066      53.00000000      15.00000000  'keuper nord'
+  21067      53.00000000      15.00000000  'keuper nord'
+  21068      53.00000000      15.00000000  'keuper nord'
+  21069      53.00000000      15.00000000  'keuper nord'
+  21070      53.00000000      15.00000000  'keuper nord'
+  21071      53.00000000      15.00000000  'keuper nord'
+  21075      53.00000000      15.00000000  'keuper nord'
+  21076      53.00000000      15.00000000  'keuper nord'
+  21077      53.00000000      15.00000000  'keuper nord'
+  21078      53.00000000      15.00000000  'keuper nord'
+  21079      53.00000000      15.00000000  'keuper nord'
+  21080      53.00000000      15.00000000  'keuper nord'
+  21093      53.00000000      15.00000000  'keuper nord'
+  21094      53.00000000      15.00000000  'keuper nord'
+  21095      53.00000000      15.00000000  'keuper nord'
+  21122      53.00000000      15.00000000  'keuper nord'
+  21123      53.00000000      15.00000000  'keuper nord'
+  21154      53.00000000      15.00000000  'keuper nord'
+  21155      53.00000000      15.00000000  'keuper nord'
+  21194      53.00000000      15.00000000  'keuper nord'
+  21235      53.00000000      15.00000000  'keuper nord'
+  21283      53.00000000      15.00000000  'keuper nord'
+  21284      53.00000000      15.00000000  'keuper nord'
+  21337      53.00000000      15.00000000  'keuper nord'
+  21338      53.00000000      15.00000000  'keuper nord'
+  21339      53.00000000      15.00000000  'keuper nord'
+  21396      53.00000000      15.00000000  'keuper nord'
+  21397      53.00000000      15.00000000  'keuper nord'
+  21398      53.00000000      15.00000000  'keuper nord'
+  21399      53.00000000      15.00000000  'keuper nord'
+  21461      53.00000000      15.00000000  'keuper nord'
+  31180      14.86000000       0.00000000  keupersued
+  31181      14.86000000       0.00000000  keupersued
+  31182      14.86000000       0.00000000  keupersued
+  31183      14.86000000       0.00000000  keupersued
+  31184      14.86000000       0.00000000  keupersued
+  31201      14.86000000       0.00000000  keupersued
+  31202      14.86000000       0.00000000  keupersued
+  31203      14.86000000       0.00000000  keupersued
+  31332      14.86000000       0.00000000  keupersued
+  31333      14.86000000       0.00000000  keupersued
+  31334      14.86000000       0.00000000  keupersued
+  31335      14.86000000       0.00000000  keupersued
+  31349      14.86000000       0.00000000  keupersued
+  31350      14.86000000       0.00000000  keupersued
+  31351      14.86000000       0.00000000  keupersued
+  31352      14.86000000       0.00000000  keupersued
+  31353      14.86000000       0.00000000  keupersued
+  31354      14.86000000       0.00000000  keupersued
+  31355      14.86000000       0.00000000  keupersued
+  31356      14.86000000       0.00000000  keupersued
+  31372      14.86000000       0.00000000  keupersued
+  31373      14.86000000       0.00000000  keupersued
+  31374      14.86000000       0.00000000  keupersued
+  31375      14.86000000       0.00000000  keupersued
+  31376      14.86000000       0.00000000  keupersued
+  31377      14.86000000       0.00000000  keupersued
+  31378      14.86000000       0.00000000  keupersued
+  31379      14.86000000       0.00000000  keupersued
+  31380      14.86000000       0.00000000  keupersued
+  31466      14.86000000       0.00000000  keupersued
+  31467      14.86000000       0.00000000  keupersued
+  31468      14.86000000       0.00000000  keupersued
+  31469      14.86000000       0.00000000  keupersued
+  31470      14.86000000       0.00000000  keupersued
+  31471      14.86000000       0.00000000  keupersued
+  31472      14.86000000       0.00000000  keupersued
+  31473      14.86000000       0.00000000  keupersued
+  31474      14.86000000       0.00000000  keupersued
+  31488      14.86000000       0.00000000  keupersued
+  31489      14.86000000       0.00000000  keupersued
+  31490      14.86000000       0.00000000  keupersued
+  31491      14.86000000       0.00000000  keupersued
+  31492      14.86000000       0.00000000  keupersued
+  31493      14.86000000       0.00000000  keupersued
+  31494      14.86000000       0.00000000  keupersued
+  31495      14.86000000       0.00000000  keupersued
+  31496      14.86000000       0.00000000  keupersued
+  31497      14.86000000       0.00000000  keupersued
+  31498      14.86000000       0.00000000  keupersued
+  31499      14.86000000       0.00000000  keupersued
+  31500      14.86000000       0.00000000  keupersued
+  31501      14.86000000       0.00000000  keupersued
+  31502      14.86000000       0.00000000  keupersued
+  31503      14.86000000       0.00000000  keupersued
+  31504      14.86000000       0.00000000  keupersued
+  31505      14.86000000       0.00000000  keupersued
+  31506      14.86000000       0.00000000  keupersued
+  31507      14.86000000       0.00000000  keupersued
+  31508      14.86000000       0.00000000  keupersued
+  31509      14.86000000       0.00000000  keupersued
+  31530      14.86000000       0.00000000  keupersued
+  31531      14.86000000       0.00000000  keupersued
+  31532      14.86000000       0.00000000  keupersued
+  31541      14.86000000       0.00000000  keupersued
+  31542      14.86000000       0.00000000  keupersued
+  31543      14.86000000       0.00000000  keupersued
+  31544      14.86000000       0.00000000  keupersued
+  31545      14.86000000       0.00000000  keupersued
+  31546      14.86000000       0.00000000  keupersued
+  31547      14.86000000       0.00000000  keupersued
+  31548      14.86000000       0.00000000  keupersued
+  31549      14.86000000       0.00000000  keupersued
+  31581      14.86000000       0.00000000  keupersued
+  31582      14.86000000       0.00000000  keupersued
+  31583      14.86000000       0.00000000  keupersued
+  31595      14.86000000       0.00000000  keupersued
+  31596      14.86000000       0.00000000  keupersued
+  31597      14.86000000       0.00000000  keupersued
+  31598      14.86000000       0.00000000  keupersued
+  31599      14.86000000       0.00000000  keupersued
+  31600      14.86000000       0.00000000  keupersued
+  31601      14.86000000       0.00000000  keupersued
+  31602      14.86000000       0.00000000  keupersued
+  31603      14.86000000       0.00000000  keupersued
+  31604      14.86000000       0.00000000  keupersued
+  31605      14.86000000       0.00000000  keupersued
+  31606      14.86000000       0.00000000  keupersued
+  31607      14.86000000       0.00000000  keupersued
+  31615      14.86000000       0.00000000  keupersued
+  31616      14.86000000       0.00000000  keupersued
+  31617      14.86000000       0.00000000  keupersued
+  31618      14.86000000       0.00000000  keupersued
+  31622      14.86000000       0.00000000  keupersued
+  31623      14.86000000       0.00000000  keupersued
+  31648      14.86000000       0.00000000  keupersued
+  31649      14.86000000       0.00000000  keupersued
+  31659      14.86000000       0.00000000  keupersued
+  31660      14.86000000       0.00000000  keupersued
+  31661      14.86000000       0.00000000  keupersued
+  31662      14.86000000       0.00000000  keupersued
+  31663      14.86000000       0.00000000  keupersued
+  31664      14.86000000       0.00000000  keupersued
+  31666      14.86000000       0.00000000  keupersued
+  31667      14.86000000       0.00000000  keupersued
+  31668      14.86000000       0.00000000  keupersued
+  31669      14.86000000       0.00000000  keupersued
+  31686      14.86000000       0.00000000  keupersued
+  31695      14.86000000       0.00000000  keupersued
+  31696      14.86000000       0.00000000  keupersued
+  31709      14.86000000       0.00000000  keupersued
+  31717      14.86000000       0.00000000  keupersued
+  31730      14.86000000       0.00000000  keupersued
+  31738      14.86000000       0.00000000  keupersued
+  31752      14.86000000       0.00000000  keupersued
+  31759      14.86000000       0.00000000  keupersued
+  31771      14.86000000       0.00000000  keupersued
+  31777      14.86000000       0.00000000  keupersued
+  31789      14.86000000       0.00000000  keupersued
+  31795      14.86000000       0.00000000  keupersued
+  31806      14.86000000       0.00000000  keupersued
+  31807      14.86000000       0.00000000  keupersued
+  31808      14.86000000       0.00000000  keupersued
+  31811      14.86000000       0.00000000  keupersued
+  31822      14.86000000       0.00000000  keupersued
+  31823      14.86000000       0.00000000  keupersued
+  10405      24.30000000       0.00000000  lacherwegsgraben
+  10406      24.30000000       0.00000000  lacherwegsgraben
+  10407      24.30000000       0.00000000  lacherwegsgraben
+  10419      24.30000000       0.00000000  lacherwegsgraben
+  10420      24.30000000       0.00000000  lacherwegsgraben
+  10421      24.30000000       0.00000000  lacherwegsgraben
+  10422      24.30000000       0.00000000  lacherwegsgraben
+  10423      24.30000000       0.00000000  lacherwegsgraben
+  10424      24.30000000       0.00000000  lacherwegsgraben
+  10425      24.30000000       0.00000000  lacherwegsgraben
+  10444      24.30000000       0.00000000  lacherwegsgraben
+  10450      24.30000000       0.00000000  lacherwegsgraben
+  10480      24.30000000       0.00000000  lacherwegsgraben
+  10518      24.30000000       0.00000000  lacherwegsgraben
+  10558      24.30000000       0.00000000  lacherwegsgraben
+  10606      24.30000000       0.00000000  lacherwegsgraben
+  10658      24.30000000       0.00000000  lacherwegsgraben
+  10714      24.30000000       0.00000000  lacherwegsgraben
+  10775      24.30000000       0.00000000  lacherwegsgraben
+  10841      24.30000000       0.00000000  lacherwegsgraben
+  10917      24.30000000       0.00000000  lacherwegsgraben
+  10995      24.30000000       0.00000000  lacherwegsgraben
+  21345      43.20000000       0.00000000  'mo auftrieb riedbrunnen'
+  27987     691.00000000      11.00000000  'muka arteser'
+  27991     552.80000000      11.00000000  'muka arteser'
+  27996     691.00000000      11.00000000  'muka arteser'
+  28324     552.80000000      11.00000000  'muka arteser'
+  28325     691.00000000      11.00000000  'muka arteser'
+  20415      12.19000000      14.00000000  'rammert kieb_buehl'
+  20416      12.19000000      14.00000000  'rammert kieb_buehl'
+  20417      12.19000000      14.00000000  'rammert kieb_buehl'
+  20418      12.19000000      14.00000000  'rammert kieb_buehl'
+  20419      12.19000000      14.00000000  'rammert kieb_buehl'
+  20567      12.19000000      14.00000000  'rammert kieb_buehl'
+  20568      12.19000000      14.00000000  'rammert kieb_buehl'
+  20569      12.19000000      14.00000000  'rammert kieb_buehl'
+  20570      12.19000000      14.00000000  'rammert kieb_buehl'
+  20705      12.19000000      14.00000000  'rammert kieb_buehl'
+  20706      12.19000000      14.00000000  'rammert kieb_buehl'
+  20707      12.19000000      14.00000000  'rammert kieb_buehl'
+  20708      12.19000000      14.00000000  'rammert kieb_buehl'
+  20709      12.19000000      14.00000000  'rammert kieb_buehl'
+  20816      12.19000000      14.00000000  'rammert kieb_buehl'
+  20817      12.19000000      14.00000000  'rammert kieb_buehl'
+  20818      12.19000000      14.00000000  'rammert kieb_buehl'
+  20882      12.19000000      14.00000000  'rammert kieb_buehl'
+  20883      12.19000000      14.00000000  'rammert kieb_buehl'
+  20919      12.19000000      14.00000000  'rammert kieb_buehl'
+  17766       5.51500000       0.00000000  'tue gartenstr'
+  17767       5.51500000       0.00000000  'tue gartenstr'
+  17768       5.51500000       0.00000000  'tue gartenstr'
+  17769       5.51500000       0.00000000  'tue gartenstr'
+  18054       5.51500000       0.00000000  'tue gartenstr'
+  18055       5.51500000       0.00000000  'tue gartenstr'
+  18056       5.51500000       0.00000000  'tue gartenstr'
+  18327       5.51500000       0.00000000  'tue gartenstr'
+  18328       5.51500000       0.00000000  'tue gartenstr'
+  18591       5.51500000       0.00000000  'tue gartenstr'
+  18592       5.51500000       0.00000000  'tue gartenstr'
+  18593       5.51500000       0.00000000  'tue gartenstr'
+  18851       5.51500000       0.00000000  'tue gartenstr'
+  18852       5.51500000       0.00000000  'tue gartenstr'
+  19093       5.51500000       0.00000000  'tue gartenstr'
+  19328       5.51500000       0.00000000  'tue gartenstr'
+  19329       5.51500000       0.00000000  'tue gartenstr'
+  19330       5.51500000       0.00000000  'tue gartenstr'
+  19558       5.51500000       0.00000000  'tue gartenstr'
+  19559       5.51500000       0.00000000  'tue gartenstr'
+  14706     176.33500000      13.00000000  'versickerung blaulach'
+  14710     176.33500000      13.00000000  'versickerung blaulach'
+  14714     176.33500000      13.00000000  'versickerung blaulach'
+  15008     176.33500000      13.00000000  'versickerung blaulach'
+  15315     176.33500000      13.00000000  'versickerung blaulach'
+  15320     176.33500000      13.00000000  'versickerung blaulach'
+  15321     176.33500000      13.00000000  'versickerung blaulach'
+  15631     176.33500000      13.00000000  'versickerung blaulach'
+  15635     176.33500000      13.00000000  'versickerung blaulach'
+  15938     176.33500000      13.00000000  'versickerung blaulach'
+  20436       6.05000000      20.00000000  'zufluss buehl ost'
+  20437       6.05000000      20.00000000  'zufluss buehl ost'
+  20438       6.05000000      20.00000000  'zufluss buehl ost'
+  20585       6.05000000      20.00000000  'zufluss buehl ost'
+  20586       6.05000000      20.00000000  'zufluss buehl ost'
+  20587       6.05000000      20.00000000  'zufluss buehl ost'
+  20588       6.05000000      20.00000000  'zufluss buehl ost'
+  20723       6.05000000      20.00000000  'zufluss buehl ost'
+  20830       6.05000000      20.00000000  'zufluss buehl ost'
+  20893       6.05000000      20.00000000  'zufluss buehl ost'
+  20928       6.05000000      20.00000000  'zufluss buehl ost'
+  10408       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10409       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10410       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10411       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10412       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10413       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10414       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10415       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10416       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10438       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10439       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10440       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10467       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10468       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10499       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10500       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10539       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10580       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10628       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10629       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10682       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10683       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10684       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10741       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10742       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10743       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10744       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10806       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10807       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10873       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  10874       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11029       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11030       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11031       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11114       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11198       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11284       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11285       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11374       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11465       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11563       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11665       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11798       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11799       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11950       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  11951       4.27700000      17.00000000  'zufluss in_u_westl hirschau'
+  20699       7.46500000      21.00000000  'zufluss kieb ost'
+  20700       7.46500000      21.00000000  'zufluss kieb ost'
+  20701       7.46500000      21.00000000  'zufluss kieb ost'
+  20702       7.46500000      21.00000000  'zufluss kieb ost'
+  20703       7.46500000      21.00000000  'zufluss kieb ost'
+  20704       7.46500000      21.00000000  'zufluss kieb ost'
+  20813       7.46500000      21.00000000  'zufluss kieb ost'
+  20814       7.46500000      21.00000000  'zufluss kieb ost'
+  20815       7.46500000      21.00000000  'zufluss kieb ost'
+  20881       7.46500000      21.00000000  'zufluss kieb ost'
+  20589      16.47000000      19.00000000  'zufluss kilchberg'
+  20590      16.47000000      19.00000000  'zufluss kilchberg'
+  20591      16.47000000      19.00000000  'zufluss kilchberg'
+  20607      16.47000000      19.00000000  'zufluss kilchberg'
+  20608      16.47000000      19.00000000  'zufluss kilchberg'
+  20609      16.47000000      19.00000000  'zufluss kilchberg'
+  20610      16.47000000      19.00000000  'zufluss kilchberg'
+  20611      16.47000000      19.00000000  'zufluss kilchberg'
+  20612      16.47000000      19.00000000  'zufluss kilchberg'
+  20613      16.47000000      19.00000000  'zufluss kilchberg'
+  20614      16.47000000      19.00000000  'zufluss kilchberg'
+  20615      16.47000000      19.00000000  'zufluss kilchberg'
+  20724      16.47000000      19.00000000  'zufluss kilchberg'
+  20725      16.47000000      19.00000000  'zufluss kilchberg'
+  20726      16.47000000      19.00000000  'zufluss kilchberg'
+  20727      16.47000000      19.00000000  'zufluss kilchberg'
+  20728      16.47000000      19.00000000  'zufluss kilchberg'
+  20729      16.47000000      19.00000000  'zufluss kilchberg'
+  20730      16.47000000      19.00000000  'zufluss kilchberg'
+  20731      16.47000000      19.00000000  'zufluss kilchberg'
+  20732      16.47000000      19.00000000  'zufluss kilchberg'
+  20733      16.47000000      19.00000000  'zufluss kilchberg'
+  20734      16.47000000      19.00000000  'zufluss kilchberg'
+  20735      16.47000000      19.00000000  'zufluss kilchberg'
+  20736      16.47000000      19.00000000  'zufluss kilchberg'
+  20737      16.47000000      19.00000000  'zufluss kilchberg'
+  20738      16.47000000      19.00000000  'zufluss kilchberg'
+  20739      16.47000000      19.00000000  'zufluss kilchberg'
+  20740      16.47000000      19.00000000  'zufluss kilchberg'
+  20741      16.47000000      19.00000000  'zufluss kilchberg'
+  20742      16.47000000      19.00000000  'zufluss kilchberg'
+  20743      16.47000000      19.00000000  'zufluss kilchberg'
+  20744      16.47000000      19.00000000  'zufluss kilchberg'
+  20831      16.47000000      19.00000000  'zufluss kilchberg'
+  20832      16.47000000      19.00000000  'zufluss kilchberg'
+  20833      16.47000000      19.00000000  'zufluss kilchberg'
+  20834      16.47000000      19.00000000  'zufluss kilchberg'
+  20835      16.47000000      19.00000000  'zufluss kilchberg'
+  20836      16.47000000      19.00000000  'zufluss kilchberg'
+  20837      16.47000000      19.00000000  'zufluss kilchberg'
+  12593       2.30000000      16.00000000  'zufluss oestl hirschau'
+  12594       2.30000000      16.00000000  'zufluss oestl hirschau'
+  12851       2.30000000      16.00000000  'zufluss oestl hirschau'
+  12852       2.30000000      16.00000000  'zufluss oestl hirschau'
+  12853       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13091       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13092       2.63500000      16.00000000  'zufluss oestl hirschau'
+  13093       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13351       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13352       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13353       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13354       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13634       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13635       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13636       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13637       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13638       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13639       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13640       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13641       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13642       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13928       2.29800000      16.00000000  'zufluss oestl hirschau'
+  13935       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13936       2.30000000      16.00000000  'zufluss oestl hirschau'
+  13937       2.63500000      16.00000000  'zufluss oestl hirschau'
+  19822      16.39500000      18.00000000  'zufluss robu_kieb'
+  19823      16.39500000      18.00000000  'zufluss robu_kieb'
+  19824      16.39500000      18.00000000  'zufluss robu_kieb'
+  19825      16.39500000      18.00000000  'zufluss robu_kieb'
+  19826      16.39500000      18.00000000  'zufluss robu_kieb'
+  19827      16.39500000      18.00000000  'zufluss robu_kieb'
+  19828      16.39500000      18.00000000  'zufluss robu_kieb'
+  19829      16.39500000      18.00000000  'zufluss robu_kieb'
+  19830      16.39500000      18.00000000  'zufluss robu_kieb'
+  20024      16.39500000      18.00000000  'zufluss robu_kieb'
+  20025      16.39500000      18.00000000  'zufluss robu_kieb'
+  20026      16.39500000      18.00000000  'zufluss robu_kieb'
+  20211      16.39500000      18.00000000  'zufluss robu_kieb'
+  20212      16.39500000      18.00000000  'zufluss robu_kieb'
+  20380      16.39500000      18.00000000  'zufluss robu_kieb'
+  20381      16.39500000      18.00000000  'zufluss robu_kieb'
+  20537      16.39500000      18.00000000  'zufluss robu_kieb'
+  20538      16.39500000      18.00000000  'zufluss robu_kieb'
+  20681      16.39500000      18.00000000  'zufluss robu_kieb'
+  20682      16.39500000      18.00000000  'zufluss robu_kieb'
+  20800      16.39500000      18.00000000  'zufluss robu_kieb'
+  20801      16.39500000      18.00000000  'zufluss robu_kieb'
+  20802      16.39500000      18.00000000  'zufluss robu_kieb'
+  20872      16.39500000      18.00000000  'zufluss robu_kieb'
+  20873      16.39500000      18.00000000  'zufluss robu_kieb'
+  20874      16.39500000      18.00000000  'zufluss robu_kieb'
+  20916      16.39500000      18.00000000  'zufluss robu_kieb'
+  20662       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20776       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20777       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20778       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20779       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20780       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20781       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20782       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20783       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20784       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20851       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20852       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20853       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20857       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20858       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20901       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20902       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  20903       4.85500000       0.00000000  'zufluss weilheimderendingen'
+  21462       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21528       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21605       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21684       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21685       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21686       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21769       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21853       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21939       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  21940       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22029       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22120       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22222       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22332       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22467       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22468       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22621       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  22805       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23033       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23298       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23299       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23559       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23560       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23561       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23562       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23563       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23799       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23800       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23801       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23802       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23803       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  23804       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24059       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24060       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24061       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24062       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24063       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24064       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24343       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24344       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24345       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24346       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24347       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24348       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24349       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24350       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24351       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24352       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24353       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24354       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24640       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24647       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24648       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24649       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24651       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24652       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24653       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24972       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  24974       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25290       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25291       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25292       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25599       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25600       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25908       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25909       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  25910       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26230       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26231       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26232       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26233       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26234       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26235       6.52000000       0.00000000  'interbasinflow (allgeier)'
+  26236       6.52000000       0.00000000  'interbasinflow (allgeier)'

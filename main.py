@@ -122,7 +122,7 @@ if __name__ == '__main__':
         shutil.rmtree(absolute_path + ens_path)
     
     ncores          = multiprocessing.cpu_count()
-    nreal           = 5
+    nreal           = 1
     
     ens_dir         = [None] * nreal
     ens_hds_dir     = [None] * nreal
@@ -300,7 +300,8 @@ if __name__ == '__main__':
             i1      = Obs_data['Date'].dt.strftime('%Y-%m-%d') == str(date)
             interim = Obs_data.iloc[[i1[i1].index[0]]].to_numpy()
             if sum(j > 5 for j in interim[0][1:]) > 8:
-                Assimilate  = True
+                #### ASSIMILATION IS TURNED OFF
+                Assimilate  = False
                 Obs_t       = np.zeros((len(interim[0][1:][interim[0][1:] > 0]),2))
                 print('Hurray')
                 Obs_t[:,1]  =  np.asarray(interim[0][1:][interim[0][1:] > 0])
@@ -391,4 +392,5 @@ if __name__ == '__main__':
     savemat("Ens_h_mean.mat", mdict={'data':Ens_h_mean_mat})
     savemat("Ens_h_var.mat", mdict={'data':Ens_h_var_mat})
     savemat("Error.mat", mdict={'data':Error_mat})
+    savemat('Final_h_field.mat', mdict={'data':Ensemble.meanh})
     

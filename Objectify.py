@@ -310,7 +310,7 @@ class Member:
         self.model      = self.sim.get_model()
         self.greateq    = idx_ge
         
-        self.set_kfield(Kf)
+        #self.set_kfield(Kf)
     
     def get_hfield(self):
         return self.model.output.head().get_data()

@@ -1,1 +1,0 @@
-"c:\program files\gms 10.7 64-bit\python\lib\site-packages\pest_gms\mf6mod2obs.exe" < mf6mod2obs-mftimes-bsamp.in
