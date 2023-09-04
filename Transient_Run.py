@@ -282,7 +282,7 @@ if __name__ == '__main__':
         if Assimilate == False:
             for j in range(Ensemble.nreal):
                 Ensemble.members[j].set_hfield(Ensemble.X[Ensemble.nPP:,j])
-                        
+        Ensemble.update_tstp()               
         finish_time = time.perf_counter()
         print("Prediction step finished in {} seconds - using multiprocessing"
               .format(finish_time-start_time)
