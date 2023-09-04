@@ -1,0 +1,18 @@
+BEGIN OPTIONS
+  LIST model.lst
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  DISU6 ../13303f9d-e185-4353-b50f-3ac4a61a897a/model.disu 'DISU'
+  NPF6 ../0e05d06a-b4aa-4dc1-b9ce-67089f02c833/model.npf 'NPF'
+  IC6 ../5a793414-5636-4fea-a6bb-c4d71b5874da/model.ic 'IC'
+  CHD6 ../6e29edf7-547f-4bef-ba5a-917b094a54ca/model.chd 'CHD'
+  OC6 ../e39d1d99-f4af-4870-8895-9251ad1391a1/model.oc 'OC'
+  RCH6 ../34e9c541-d9bd-4ac0-a605-7daa562032b4/model.rch 'RCH'
+  RIV6 ../89f8e372-e12a-4691-a450-49db8460a2ed/model.riv 'RIV'
+  WEL6 ../fc8debda-63d2-43f7-ba80-76f52ec08cec/model.wel 'WEL'
+END PACKAGES

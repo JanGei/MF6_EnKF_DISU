@@ -1,0 +1,13 @@
+model.n2b
+model.blisting
+y
+model.bsamp
+..\flow_output\flow.hds
+1.0E30
+-1.0E30
+u
+d
+01/01/1950
+0:0:0
+1e20
+model.bsamp.out

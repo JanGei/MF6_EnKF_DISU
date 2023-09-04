@@ -1,0 +1,12 @@
+40 -888.0 0 0
+1 1 1 
+0 0 0 
+1.0 1.0 1.0 
+1 1 1 
+0 0 0 
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/HK1" 1 0 10402
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/VANI1" 1 0 10402
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/HK2" 1 0 10655
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/VANI2" 1 0 10655
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/HK3" 1 0 10774
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/VANI3" 1 0 10774

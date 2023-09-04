@@ -1,0 +1,10 @@
+#GMS MODFLOW Simulation
+#10 March 2023
+FREE
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/ibound1" 1 0 10402
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/ibound2" 1 0 10655
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/ibound3" 1 0 10774
+-999.0
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/StartHead1" 1 0 10402
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/StartHead2" 1 0 10655
+HDF5 1.0 -1 "NeckartalCalib_try.h5" "Arrays/StartHead3" 1 0 10774

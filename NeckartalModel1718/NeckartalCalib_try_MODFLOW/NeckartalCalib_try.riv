@@ -1,0 +1,4 @@
+#GMS_HDF5_01
+83 40 AUX IFACE AUX CONDFACT AUX CELLGRP
+        83         0         0
+GMS_HDF5_01 "NeckartalCalib_try.h5" "River" 1

@@ -1,0 +1,1 @@
+"c:\program files\gms 10.7 64-bit\python\lib\site-packages\pest_gms\smp2smp.exe" < smp2smp.in

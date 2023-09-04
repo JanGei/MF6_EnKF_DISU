@@ -1,0 +1,18 @@
+# MF2K NAME file
+#
+# MODFLOW USG
+# Output Files
+LIST            1 "NeckartalCalib_try.out"
+DATA(BINARY)    2 "NeckartalCalib_try.hed"
+DATA(BINARY)   40 "NeckartalCalib_try.ccf"
+#
+# Obs-Sen-Pes Process Input Files
+#
+# Global Input Files
+DISU            3 "NeckartalCalib_try.disu"
+#
+# Flow Process Input Files
+BAS6            4 "NeckartalCalib_try.ba6"
+LPF             7 "NeckartalCalib_try.lpf"
+OC              8 "NeckartalCalib_try.oc"
+SMS             9 "NeckartalCalib_try.sms"
