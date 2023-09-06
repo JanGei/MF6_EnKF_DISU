@@ -27,9 +27,7 @@ def covmod(var, lx, ang, dim = 2):
 def kriggle(pack,porg = "points", pert = False):
     
     # Unpack Data
-    x,y,data,cov_mod    = pack
-    xyk                 = data[0]
-    k                   = data[1]
+    x,y,xyk,k,cov_mod    = pack
     
     if pert == True:
         k_pert = np.random.normal(k,0.1*k)

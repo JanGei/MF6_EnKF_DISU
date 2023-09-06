@@ -1,8 +1,9 @@
 import numpy as np
 import flopy 
 from joblib import Parallel, delayed
-from gstools import krige, Matern
+# from gstools import krige, Matern
 import matplotlib.pyplot as plt
+from pykrige.ok import OrdinaryKriging
 
 class Ensemble:
     def __init__(self, X, Ysim, obsloc, PPcor, tstp, meanh, meank, ncores):
@@ -84,14 +85,24 @@ class Ensemble:
             else:
                 self.X[self.nPP:,j]  = np.ndarray.flatten(result[j])
                 
-                k = 0
-                for key in self.obsloc.keys():
-                    self.Ysim[k,j] = self.X[self.nPP+int(self.obsloc[key]), j]
-                    k +=1
+                # THESE VALUES SHOULD BE DIFFERENT --> CHECK Kfield maybe?
+                
+                # k = 0
+                # for key in self.obsloc.keys():
+                #     self.Ysim[k,j] = self.X[self.nPP+int(self.obsloc[key]), j]
+                #     k +=1
                     # self.Ysim[k,j]  = self.members[j].model.output.head().get_data()[0,self.obsloc[k][0],self.obsloc[k][1]]
 
                         
                 j +=  1
+    def updateObservations(self,Obs_t):
+        Ysim            = np.zeros((len(Obs_t),self.nreal))
+        
+        for i in range(self.nreal):
+            for k in range(len(Obs_t)):
+                Ysim[k,i] = self.X[self.nPP+int(Obs_t[k,0]), i]
+                
+        self.Ysim = Ysim
     
     def update_hmean(self):
         newmean = np.zeros(self.members[0].model.output.head().get_data().shape)
@@ -103,7 +114,7 @@ class Ensemble:
         newmean = np.zeros(self.members[0].model.npf.k.array.shape)
         for member in self.members:
             newmean += member.model.npf.k.array
-        self.meank[10402:21058] = newmean / self.nreal
+        self.meank = newmean / self.nreal
         
     def get_varh(self):
         return  np.reshape(np.var(self.X[self.nPP:], axis = 1), self.members[0].model.npf.k.array.shape)    
@@ -115,11 +126,11 @@ class Ensemble:
     def analysis(self, eps):
         
         # Compute mean of postX and Y_sim
-        Xmean   = np.tile(np.array(np.mean(self.X, axis = 1)).T, (self.nreal, 1)).T
+        Xmean   = np.tile(np.array(np.mean(np.ma.masked_values(self.X, 1e+30), axis = 1)).T, (self.nreal, 1)).T
         Ymean   = np.tile(np.array(np.mean(self.Ysim,  axis  = 1)).T, (self.nreal, 1)).T
         
         # Fluctuations around mean
-        X_prime = self.X - Xmean
+        X_prime = np.ma.masked_values(self.X, 1e+30) - Xmean
         Y_prime = self.Ysim  - Ymean
         
         # Variance inflation
@@ -133,13 +144,15 @@ class Ensemble:
                         
         return X_prime, Y_prime, Cyy
     
-    def Kalman_update(self, damp, X_prime, Y_prime, Cyy, Y_obs):
+    def Kalman_update(self, damp, X_prime, Y_prime, Cyy, Obs_t):
+        
+        Y_obs = np.tile(Obs_t[:,1],(self.nreal,1)).transpose()
         
         self.X += 1/(self.nreal-1) * (damp *
                     np.matmul(
-                        X_prime, np.matmul(
+                        np.ma.getdata(X_prime), np.matmul(
                             Y_prime.T, np.matmul(
-                                np.linalg.inv(Cyy), (Y_obs - self.Ysim)
+                                np.linalg.inv(Cyy), (Y_obs - self.Ysim) #This line seems to be the problem
                                 )
                             )
                         ).T
@@ -150,10 +163,12 @@ class Ensemble:
         
         self.update_hmean()
         
-    def updateK(self, cellx, celly, ang, lx, cov_mod):
+    def updateK(self, pack):
         
+        x,y,xyk,k,cov_mod    = pack
+
         Parallel(n_jobs=self.ncores)(delayed(self.members[j].updateK)(
-                [cellx,celly,[self.PPcor,self.X[0:self.nPP,j]],ang,lx,cov_mod]) for j in range(len(self.members))
+                [x,y,xyk,self.X[0:self.nPP,j],cov_mod]) for j in range(len(self.members))
                 )
         
         self.update_kmean()
@@ -162,9 +177,30 @@ class Ensemble:
         obs = [self.meanh[0, self.obsloc[i][0], self.obsloc[i][1]] for i in range(len(self.obsloc))]
         return obs
     
-    # def ole(self):
-    #     ole = np.sqrt(1/(self.tstp)*self.nobs) * np.sum(np.sum((obs - obs_sim)**2 / sigma)))
-    #     return ole
+    def ole(self, interim, Ole_mat, sigma, Errorcounter):
+        
+        active_obs  = interim.drop(['Date'], axis = 1)[interim.drop(['Date'], axis =1) > 0].count().sum()
+        obs         = np.zeros((1,active_obs))
+        obs_sim     = np.zeros((1,active_obs))
+        
+        # Observation location error, n_nodes up until that timestep, unscaled NRMSE up until that point
+        counter = 0
+        for key in self.obsloc.keys():
+            if interim[key][interim[key].index[0]] > 0:
+                obs[0,counter]      = interim[key][interim[key].index[0]]
+                obs_sim[0,counter]  = self.meanh[0,0,int(self.obsloc[key])]
+                counter += 1
+       
+        if Errorcounter == 0:
+            uNMRSE  = np.sum(np.sum((obs - obs_sim)**2 / sigma))
+            n_node  = active_obs
+            ole     = np.sqrt(1/n_node * uNMRSE)       
+        else:
+            uNMRSE  = np.sum(np.sum((obs - obs_sim)**2 / sigma)) + Ole_mat[Errorcounter-1, 2]
+            n_node  = active_obs + Ole_mat[Errorcounter-1, 1]
+            ole     = np.sqrt(1/n_node * uNMRSE) 
+            
+        return np.array([ole, n_node, uNMRSE])
     
     def compare(self):
         
@@ -214,33 +250,6 @@ class Ensemble:
         pmv.plot_bc('riv')
         pmv.plot_vector(qx, qy, width=0.0008, color="black")
         
-        # pmv = flopy.plot.PlotMapView(self.members[0].model, layer=0, ax=ax12)
-        # ax12.set_aspect("equal")
-        # mapable = pmv.plot_array(k_field_true.flatten(), cmap="RdBu", vmin=vmink, vmax=vmaxk)
-        # cbar = plt.colorbar(mapable, fraction=im_ratio*0.046, pad=0.04, ax =ax12)
-        # cbar.ax.set_ylabel('Hydraulic Conductivity [m/s]', fontsize = 25)
-        # cbar.ax.tick_params(labelsize=20)
-        # ax12.yaxis.label.set_size(25)
-        # plt.ylabel('Northing [m]', fontsize = 25)
-        # ax12.tick_params(axis='both', which='major', labelsize=20)
-        # pmv.plot_grid(colors="k", alpha=0.1)
-        # pmv.plot_bc('riv')
-        # pmv.plot_vector(qx_true, qy_true, width=0.0008, color="black")
-        
-        # pmv = flopy.plot.PlotMapView(self.members[0].model, layer=0, ax=ax13)
-        # ax13.set_aspect("equal")
-        # mapable = pmv.plot_array(k_diff.flatten(), cmap="RdYlGn", vmin=-0.5, vmax=0.5)
-        # cbar = plt.colorbar(mapable, fraction=im_ratio*0.046, pad=0.04, ax =ax13)
-        # cbar.ax.set_ylabel('Relative Difference [-]', fontsize = 25)
-        # cbar.ax.tick_params(labelsize=20)
-        # ax13.yaxis.label.set_size(25)
-        # ax13.xaxis.label.set_size(25)
-        # plt.xlabel('Easting [m]', fontsize = 25)
-        # plt.ylabel('Northing [m]', fontsize = 25)
-        # ax13.tick_params(axis='both', which='major', labelsize=20)
-        # pmv.plot_grid(colors="k", alpha=0.1)
-        # pmv.plot_bc('riv')
-        
         plt.savefig("K_field in t" + str(self.tstp), format="svg")
         
         fig2, axes2 = plt.subplots(1, 1, figsize=(25, 25), sharex=True, dpi = 400)
@@ -263,35 +272,6 @@ class Ensemble:
         pmv.plot_grid(colors="k", alpha=0.1)
         pmv.plot_bc('riv')
         
-        # pmv = flopy.plot.PlotMapView(self.members[0].model, layer=0, ax=ax22)
-        # ax22.set_aspect("equal")
-        # pmv.contour_array(
-        #             head_true, masked_values = 1e+30, levels=np.arange(vmin, vmax, 0.1), linewidths=2.0, vmin=vmin, vmax=vmax
-        #         )
-        # mapable = pmv.plot_array(head_true, cmap="RdBu", vmin=vmin, vmax=vmax)
-        # cbar = plt.colorbar(mapable, fraction=im_ratio*0.046, pad=0.04, ax =ax22)
-        # cbar.ax.set_ylabel('Hydraulic Conductivity [m/s]', fontsize = 25)
-        # cbar.ax.tick_params(labelsize=20)
-        # ax22.yaxis.label.set_size(25)
-        # plt.ylabel('Northing [m]', fontsize = 25)
-        # ax22.tick_params(axis='both', which='major', labelsize=20)
-        # pmv.plot_grid(colors="k", alpha=0.1)
-        # pmv.plot_bc('riv')
-        
-        # pmv = flopy.plot.PlotMapView(self.members[0].model, layer=0, ax=ax23)
-        # ax23.set_aspect("equal")
-        # mapable = pmv.plot_array(h_diff, cmap="RdYlGn", vmin=-0.5, vmax=0.5)
-        # cbar = plt.colorbar(mapable, fraction=im_ratio*0.046, pad=0.04, ax =ax23)
-        # cbar.ax.set_ylabel('Relative Difference [-]', fontsize = 25)
-        # cbar.ax.tick_params(labelsize=20)
-        # ax23.yaxis.label.set_size(25)
-        # ax23.xaxis.label.set_size(25)
-        # plt.xlabel('Easting [m]', fontsize = 25)
-        # plt.ylabel('Northing [m]', fontsize = 25)
-        # ax23.tick_params(axis='both', which='major', labelsize=20)
-        # pmv.plot_grid(colors="k", alpha=0.1)
-        # pmv.plot_bc('riv')
-        
         plt.savefig("Heads in t" + str(self.tstp), format="svg")
         
        
@@ -310,7 +290,7 @@ class Member:
         self.model      = self.sim.get_model()
         self.greateq    = idx_ge
         
-        #self.set_kfield(Kf)
+        self.set_kfield(Kf)
     
     def get_hfield(self):
         return self.model.output.head().get_data()
@@ -339,11 +319,14 @@ class Member:
             Hf = self.model.output.head().get_data()
         return Hf
     
-    def updateK(self, cov_mod, PPcor, PP_K, X, Y):
+    def updateK(self, pack, porg = "points"):
         
-        krig = krige.Ordinary(cov_mod, cond_pos=PPcor, cond_val = PP_K)
-        field = krig([X,Y])
-        self.set_kfield(np.reshape(field[0],self.model.npf.k.array.shape))
+        x,y,xyk,k,cov_mod    = pack
+        
+        ok1 = OrdinaryKriging(xyk[:,0], xyk[:,1], k, cov_mod)
+        z1,_ = ok1.execute(porg, x, y)
+        
+        self.set_kfield(np.exp(z1))
 
     def get_spdis(self):
         head                        = self.model.output.head().get_data()

@@ -6,7 +6,7 @@ import multiprocessing
 import csv 
 import datetime
 
-# THIS SCIPT IS NOT ABLE TO PLOT ANYTHING AT THE MOMENT
+# Plotting needs to be combined from Compare_Ss_Trans.py
 
 import numpy as np
 import geopandas as gpd
@@ -14,12 +14,17 @@ import pandas as pd
 
 from joblib import Parallel, delayed
 from numpy import genfromtxt
-from scipy.io import savemat
+from scipy.io import savemat, loadmat
 
 # from scipy.io import savemat
 
 from functions import Directories, kriggle, covmod
 from Objectify import Ensemble, Member
+
+#TODO:  Transient storage modelling for all layers (assimilate?)
+#       Real GW Recharge data
+#       LOADING MF6 SIMULATIONS IN DEBUG MODE IS PAINFULLY SLOW
+
 
 if __name__ == '__main__':
     
@@ -55,6 +60,9 @@ if __name__ == '__main__':
     # keyword is specified in a subsequent BEGIN PERIOD block.
     
     # Here, preliminary changes to the model can be appllied before it is copied
+    h_ini_transient = loadmat('Final_h_field.mat')['data']
+    model_orig.ic.strt.set_data(h_ini_transient)
+
     
     sim_orig.write_simulation()
     
@@ -122,7 +130,7 @@ if __name__ == '__main__':
         shutil.rmtree(absolute_path + ens_path)
     
     ncores          = multiprocessing.cpu_count()
-    nreal           = 1
+    nreal           = 15
     
     ens_dir         = [None] * nreal
     ens_hds_dir     = [None] * nreal
@@ -174,7 +182,7 @@ if __name__ == '__main__':
     group   = pv[1:,6].astype(int)
     n_PP    = len(xyPP)
 
-    # Freddi hat nur layer2 gekriggt - Identifier finden von den Indizes?
+    # Freddi hat nur layer 2 gekriggt - Identifier finden von den Indizes?
 
     # log(Mean), log(variance), corellation lengths, angle
     lx      = np.array([1000,1100])
@@ -183,8 +191,7 @@ if __name__ == '__main__':
     
     cov_mod = covmod(var, lx, ang)
     
-    data    = [xyPP,k_cal]
-    krig_p  = [cellx,celly,data,cov_mod]
+    krig_p  = [cellx,celly,xyPP,k_cal,cov_mod]
 
     # Generating initial K-fields 
     result = Parallel(n_jobs=ncores)(delayed(kriggle)(
@@ -230,7 +237,6 @@ if __name__ == '__main__':
     for i in range(len(result)):
         Ensemble.add_member(result[i])
 
-
     Ensemble.update_PP(K_PP)
     Ensemble.update_kmean()
     
@@ -245,12 +251,8 @@ if __name__ == '__main__':
     # =========================================================================
     start_time = time.perf_counter()
     
-    print(np.mean(Ensemble.members[0].model.ic.strt.get_data()))
-    Ensemble.set_transient_forcing(Rch_data[0,1]* f_rch, Qpu_data.iloc[[0]])
-    for i in range(7):        
-        Ensemble.initial_conditions()
-        print(np.mean(np.ma.masked_values(Ensemble.members[0].model.ic.strt.get_data(), 1e+30)))
-        
+    Ensemble.set_transient_forcing(Rch_data[0,1]* f_rch, Qpu_data.iloc[[0]])    
+    Ensemble.initial_conditions()
     Ensemble.update_hmean()
 
     finish_time = time.perf_counter()
@@ -281,11 +283,13 @@ if __name__ == '__main__':
     Ens_h_var_mat     = np.ones((t_tot,n_c))
     Ens_h_mean_mat    = np.ones((t_tot,n_c))
     Ens_h_obs_mat     = np.ones((t_tot,Ensemble.nobs))
-    Error_mat         = np.ones((t_tot, 3))
+    # Observation location error, n_nodes up until that timestep, unscaled NRMSE up until that point
+    Ole_mat           = np.ones((t_tot, 3))
+    Errorcounter      = 0
     
-    date = datetime.date(2017,1,1)
+    date = datetime.date(2017,1,30)
     
-    for i in range(t_tot):
+    for i in range(30):
         # Counter for stressperiod and timestep
         print("Starting Time Step {}".format(Ensemble.tstp+1))    
         
@@ -298,27 +302,39 @@ if __name__ == '__main__':
         
         if Obs_data['Date'].dt.strftime('%Y-%m-%d').str.contains(str(date)).any():
             i1      = Obs_data['Date'].dt.strftime('%Y-%m-%d') == str(date)
-            interim = Obs_data.iloc[[i1[i1].index[0]]].to_numpy()
-            if sum(j > 5 for j in interim[0][1:]) > 8:
-                #### ASSIMILATION IS TURNED OFF
-                Assimilate  = False
-                Obs_t       = np.zeros((len(interim[0][1:][interim[0][1:] > 0]),2))
+            interim = Obs_data.iloc[[i1[i1].index[0]]]
+            int_arr = Obs_data.iloc[[i1[i1].index[0]]].to_numpy()
+            Error   = True
+            if sum(j > 5 for j in int_arr[0][1:]) > 7:
+                Assimilate  = True
+                Obs_t       = np.zeros((len(int_arr[0][1:][int_arr[0][1:] > 0]),2))
                 print('Hurray')
-                Obs_t[:,1]  =  np.asarray(interim[0][1:][interim[0][1:] > 0])
-                Obs_active  =  np.asarray(Obs_data.columns[1:][interim[0][1:] > 0])
+                Obs_t[:,1]  =  np.asarray(int_arr[0][1:][int_arr[0][1:] > 0])
+                Obs_active  =  np.asarray(Obs_data.columns[1:][int_arr[0][1:] > 0])
                 for j in range(len(Obs_active)):
                     # print(int(obs_cell[observation]))
                     Obs_t[j,0] = obs_cell[Obs_active[j]]
+                Ensemble.nobs = len(Obs_active)
             else:
                 Assimilate = False
         else:
-            Assimilate = False
+            Error       = False
+            Assimilate  = False
         
         # ================== BEGIN PREDICTION STEP ============================
         start_time = time.perf_counter()
         
         Ensemble.set_transient_forcing(Rch, Qpu)
         Ensemble.predict() 
+        Ensemble.updateObservations(Obs_t)
+        
+        # Obtain model errors
+        if Error == True:
+            Ole_mat[Errorcounter,:] = Ensemble.ole(interim, Ole_mat, eps, Errorcounter)
+            print(Ole_mat[Errorcounter,:])
+            Errorcounter += 1
+            # summation does not sum up lol
+            
         
         if Assimilate == False:
             for j in range(Ensemble.nreal):
@@ -335,7 +351,7 @@ if __name__ == '__main__':
         # ================== BEGIN ANALYSIS STEP ==============================
         if Assimilate == True:
             start_time = time.perf_counter()
-            X_prime, Y_prime, Cyy = Ensemble.analysis(Obs_t, eps)
+            X_prime, Y_prime, Cyy = Ensemble.analysis(eps)
 
             finish_time = time.perf_counter()
             print("Analysis step finished in {} seconds - using sequential processing"
@@ -348,10 +364,10 @@ if __name__ == '__main__':
             start_time = time.perf_counter()
         
             # Update the ensemble 
-            # HERE WE SHOULD OMIT INDIVIDUAL 1e+30 CELLS
+            # Yprime ist total am Arsch <-- reparieren
             Ensemble.Kalman_update(damp, X_prime, Y_prime, Cyy, Obs_t)
-        
-            Ensemble.updateK(cellx, celly, ang, lx, cov_mod)
+            
+            Ensemble.updateK([cellx,celly,xyPP,k_cal,cov_mod])
         
             finish_time = time.perf_counter()
             print("Update step finished in {} seconds - using multiprocessing"
@@ -380,8 +396,7 @@ if __name__ == '__main__':
         Ens_h_mean_mat[i,:]   = Ensemble.meanh
         Ens_h_var_mat[i,:]    = Ensemble.get_varh()
         
-        # Obtain model errors
-        # Error_mat[i,:] = Ensemble.ole()
+        
 
         # if i%10 == 0:
         #     # TODO: Fix DISU Flopy PlotMapView Compatibility
@@ -391,6 +406,6 @@ if __name__ == '__main__':
     savemat("Ens_K_mean.mat", mdict={'data':Ens_K_mean_mat})
     savemat("Ens_h_mean.mat", mdict={'data':Ens_h_mean_mat})
     savemat("Ens_h_var.mat", mdict={'data':Ens_h_var_mat})
-    savemat("Error.mat", mdict={'data':Error_mat})
+    savemat("Error.mat", mdict={'data':Ole_mat})
     savemat('Final_h_field.mat', mdict={'data':Ensemble.meanh})
     

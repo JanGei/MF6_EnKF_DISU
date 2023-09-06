@@ -110,36 +110,6 @@ plt.grid(True)
 plt.show()
 
 
-# # Create a figure and axis
-# fig, ax = plt.subplots()
-
-# # Iterate through each cell defined by iverts and plot the corresponding rectangle
-# for cell_verts in iverts:
-#     if len(cell_verts) >= 3:
-#         cell_x = verts[cell_verts, 0]
-#         cell_y = verts[cell_verts, 1]
-
-#         # Calculate the coordinates of the bottom-left corner of the cell
-#         x_min = np.min(cell_x)
-#         y_min = np.min(cell_y)
-        
-#         # Calculate the width and height of the cell
-#         width = np.max(cell_x) - x_min
-#         height = np.max(cell_y) - y_min
-
-#         # Create a Rectangle patch and add it to the plot
-#         rect = patches.Rectangle((x_min, y_min), width, height, linewidth=1, edgecolor='black', facecolor='none')
-#         ax.add_patch(rect)
-
-# # Set axis limits and display the plot
-# ax.set_xlim(np.min(verts[:, 0]), np.max(verts[:, 0]))
-# ax.set_ylim(np.min(verts[:, 1]), np.max(verts[:, 1]))
-# ax.set_aspect('equal', 'box')
-# plt.xlabel('X Coordinate')
-# plt.ylabel('Y Coordinate')
-# plt.title('Grid of Cells')
-# plt.grid(True)
-# plt.show()
 
 
 
